@@ -1,0 +1,569 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    width: 1350px;
+}
+.contenedor{
+    /*display: grid;
+    grid-gap: 20px;
+    border: gold 5px solid;
+    grid-template-columns: 1 1fr;
+    grid-template-rows: repeat(6,1fr);*/
+    width: 100%;
+    height: 100%;
+    
+
+}
+#menu{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-left: 300px;
+    margin-right: 200px;
+
+}
+
+#listamenu{
+list-style: none;
+padding-bottom: 30px;
+}
+#listamenu li{
+    display: inline-block;
+    margin-left: 11px;
+}
+#logo{
+    width: 90px;
+    height: 100px;
+}
+#imagen1{
+width: 1350px;
+position: relative;
+}
+#imagen1 img{
+    
+    width:1350px;
+    height:500px;
+    filter: brightness(0.5); 
+}
+#imagen1 h1{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    color: aliceblue;
+    font-size: 55px;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+}
+#Proveedor{
+    
+    margin-top: 140px;
+    margin-bottom: 140px;
+    align-items: center;
+    background-color: #fcfcfc;
+  
+}
+#Proveedor h1{
+    text-align: center;
+    font-size:40px;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+}
+#Proveedor p{
+    margin-top: 44px;
+
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    
+}
+.servicios {
+    background-color:#80B7DF;
+    text-align: center;
+    align-items: center;
+    display: flex;
+  flex-direction: column;
+    
+}
+.servicios #lo{
+    position: absolute;
+    top: 850px;
+    right: 1000px;
+}
+.servicios h1{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    font-family: Arial, sans-serif;
+}
+.contenedor-card{
+    display: flex;
+    align-items: stretch; /* Hace que todas las cards tengan la misma altura */
+}
+.card{
+    
+    flex: 1;
+    width: 300px;
+    height: 400px;
+    display: flex;
+  flex-direction: column;
+  display: inline-block;
+  margin-left: 25px;
+  padding-bottom: 25px;
+  background-color: white;
+    
+}
+.card:hover{
+    transition: all 0.2s ease;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Ajusta los valores según tu preferencia */
+   transform: translateY(-5px); /* Esto eleva el elemento */
+}
+
+.card-imagen{
+    position: relative;
+    height: 50%;
+}
+.imagenCard{
+ width: 100%;
+}
+.mar{
+    position: absolute;
+    right: 0px;
+    top: 1px;
+}
+.cardTexto{
+    
+    padding: 15px;
+    text-align: left;
+    flex-grow: 1; 
+}
+.titulo{
+    margin-top: 5px;
+}
+.card-text{
+    font-size: 14px;
+    margin-top: 24px;
+    padding-right: 10px;
+}
+
+.contenedor-boton{
+    width: 100%;
+    flex-grow: 1;
+    text-align: left;
+   
+  }
+.bi{
+    padding-left: 24px;
+    padding-bottom: 5px;
+}
+.ver-servicio{
+    margin-left: 10px;
+    display: inline-block;
+   
+}
+#segunadacard{
+    margin-top: 19px;
+}
+#terceracard{
+    margin-top: 23px;
+}
+.botonCard{
+    justify-content: left;
+    display: flex;
+    text-decoration: none;
+}
+.ver-servicio:hover{
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
+#boton-VerMas{
+    margin-top: 60px;
+    height: 48px;
+    width: 160px;
+    border-radius:100px;
+    margin-bottom: 100px;
+    background-color: #064594;
+    border: 0px;
+    color: white;
+    
+}
+#boton-VerMas:active{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+    width: 150px;
+    transition: 0.3s;
+}
+.Productos{
+    display: flex;
+    flex-direction: column;
+    
+}
+.cardGeneral{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 140px;
+    
+   
+}
+.TP{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.cardProducto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+    
+}
+.cardProducto:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.imgP{
+    margin-top: 40px;
+   
+}
+.Tcard{ 
+    margin-top: 48px;
+    margin-bottom: 72px;
+}
+#idPiezas{
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 30px;
+}
+#idContruccion{
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.imgP .imdcard2{
+    width: 250px;
+    height: auto;
+}
+
+#barcoProductos{
+    position: relative;
+    background-size: cover;
+    width: 1349px;
+    height: 300px;
+    background-image: linear-gradient(to right, #2102cf 17%, #0202c56b 50%, #ffffff00 100%),url(recursos/Rectángulo\ 17.jpg);
+}
+#imgbarco{
+    position: absolute;
+    width:800px;
+    height: auto;
+    left: 600px;
+    top: 70px;
+}
+#barcoh1{
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-weight: 700;
+    padding-left: 200px;
+    padding-right: 500px;
+    padding-top: 72px;
+}
+#barco-ver-mas{
+    background-color: #FDD835;
+    border: 0px;
+    height: 48px;
+    width: 160px;
+    border-radius:100px;
+    font-weight: 700;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+#barco-ver-mas:active{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+    width: 150px;
+    transition: 0.3s;
+}
+.Novedades{
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#novedades-h1{
+ margin-top: 140px;
+ margin-bottom: 60px;
+    font-family: Arial, sans-serif;
+
+}
+#NovedadesVErMas{
+    margin-top: 60px;
+    height: 38px;
+    width: 130px;
+    border-radius:100px;
+    margin-bottom: 140px;
+    background-color: black;
+    border: 0px;
+    color: white;
+}
+#NovedadesVErMas:active{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+    width: 150px;
+    transition: 0.3s;
+}
+.Novedades-card{
+    
+    flex: 1;
+    width: 300px;
+    height: 400px;
+    display: flex;
+  flex-direction: column;
+  display: inline-block;
+  margin-left: 25px;
+  padding-bottom: 25px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+  transform: translateY(-5px);
+  transition: 0.3s;
+    
+}
+#N-primera{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+ 
+}
+.Novedades-ver-servicio{
+    margin-left: 10px;
+    
+}
+#N-terceracard{
+margin-top: 35px;
+}
+.Novedades-ver-servicio:hover{
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
+.contenedor-galeria{
+    background-color: #80B7DF;
+    position: relative;
+    width: 1350px;
+    height: 800px;
+    
+    
+}
+.Galeria{
+    position: relative;
+}
+#titulo-Galeria{
+    font-family: Arial, sans-serif;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 40px;
+}
+.video{
+position: relative;
+}
+
+#video-img{
+    position: absolute;
+    width: 400px;
+    height: 280px;
+    left:250px;
+}
+#cuatro{
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 670px ;
+}
+.cuatro-img{
+width: 200px;
+height: auto;
+margin-left: 15px;
+margin-bottom: 15px;
+}
+#icono-galeria{
+    position: absolute;
+    left: 1120px;
+    bottom: 100px;
+    width: 230px;
+}
+#Galeria-boton1{
+    border-radius:100px;
+    background-color: #064594;
+    border: 0px;
+    color: white;
+    height: 40px;
+    width: 140px;
+    font-weight: 700;
+    position: absolute;
+    top: 300px;
+    left: 510px;
+}
+#Galeria-boton2{
+    position: absolute;
+    border-radius:100px;
+    background-color: #064594;
+    border: 0px;
+    color: white;
+    height: 40px;
+    width: 140px;
+    font-weight: 700;
+    top: 300px;
+    left: 965px;
+}
+
+#Galeria-boton1:active{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+    width: 150px;
+    transition: 0.3s;
+}
+#Galeria-boton2:active{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+    width: 150px;
+    transition: 0.3s;
+}
+.Contactanos{
+    position: relative;
+    background-color: #E3E3E3;
+    width: 1350px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+}
+#contenedor-contactanos{
+    background-color:#064594;
+    width: 800px;
+    height: 436px;
+    position: absolute;
+    left: 320px;
+    top: -150px;
+    
+}
+#contenedor-map{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+#Informacion{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 70px;
+    left: 409px;
+    width: 390px;
+    height: 436px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+#titulo-contactanos{
+    margin-top: 60px;
+    margin-bottom: 48px;
+}
+.contenido{
+    margin-bottom: 16px;
+}
+.contenedor-DejaMensaje{
+    width: 1350px;
+    height: 400px;
+    margin-top: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+#contenedor-logo-pagina{
+    position: absolute;
+    left: 319px;
+}
+#img-logo{
+    width: 90px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+#EInteres{
+    margin-bottom: 30px;
+}
+#enlaces-de-interes{
+    position: absolute;
+    left: 600px;
+    bottom: 195px;
+}
+#continuacionI{
+    position: absolute;
+    left: 840px;
+    bottom: 195px; 
+}
+#DejaMensaje{
+    position: absolute;
+    left: 1060px;
+}
+#DejaTitulo{
+    margin-bottom: 30px;
+    font-family: Arial, sans-serif;
+}
+.nombre{
+width: 200px;
+height: 30px;
+}
+::placeholder {
+    font-style: italic;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+textarea{
+    resize: none; /* Evitar que se pueda redimensionar el textarea */
+}
+  
+.entradas{
+    margin-bottom: 16px;
+    border-radius: 5px;
+    border: inset 0.1px;
+}
+.entradas:active{
+  border: cornflowerblue;
+}
+#Enviar{
+    border-radius:100px;
+    background-color: #064594;
+    border: 0px;
+    color: white;
+    height: 40px;
+    width: 140px;
+    font-weight: 700;
+    position: absolute;
+    left: 60px;
+}
+
+
+#Enviar:active{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+    width: 150px;
+    transition: 0.3s;
+}
+hr{
+    position: relative;
+    bottom: -350px;
+    width: 1000px;
+    left: 260px;
+}
+#Desarrollo{
+    position: absolute;
+    bottom: 10px;
+    left: 260px;
+}
+#Actualizado{
+    position: absolute;
+    bottom: 10px;
+    left: 1050px;
+}
